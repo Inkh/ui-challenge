@@ -14,6 +14,18 @@ section.mid {
 section.bot {
   height: 150px;
   background-color: aqua;
+  text-align: center;
+  line-height: 150px;
+}
+
+section.top > div {
+  text-align: center;
+  line-height: 200px;
+}
+
+section.mid > div {
+  text-align: center;
+  line-height: 250px;
 }
 
 .t {
@@ -42,6 +54,10 @@ section.bot {
     flex-wrap: nowrap;
   }
 
+  section.top > div {
+    line-height: 125px;
+  }
+
   .t {
     height: 125px;
     width: 480px;
@@ -59,6 +75,11 @@ section.bot {
     box-sizing: border-box;
   }
 
+  section.bot {
+    height: 80px;
+    line-height: 80px;
+  }
+  
   .m {
     width: 240px;
     height: 250px;
