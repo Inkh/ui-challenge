@@ -1,0 +1,14 @@
+section.top {
+  height: 200px;
+  background-color: red;
+}
+
+section.mid {
+  height: 250px;
+  background-color: gray;
+}
+
+section.bot {
+  height: 150px;
+  background-color: aqua;
+}
