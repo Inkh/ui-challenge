@@ -13,7 +13,6 @@ section.mid {
 
 section.bot {
   height: 150px;
-  background-color: aqua;
   text-align: center;
   line-height: 150px;
 }
@@ -45,6 +44,42 @@ section.mid > div {
   flex-direction: column;
   flex-wrap: nowrap;
   max-width: 79.1666666%;
+}
+
+.a {
+  background-color: antiquewhite;
+}
+
+.b {
+  background-color: turquoise;
+}
+
+.c {
+  background-color: khaki
+}
+
+.d {
+  background-color: purple;
+}
+
+.e {
+  background-color: greenyellow;
+}
+
+.f {
+  background-color: gray;
+}
+
+.g {
+  background-color: rosybrown
+}
+
+.h {
+  background-color: olive
+}
+
+.i {
+  background-color: lavenderblush;
 }
 
 @media only screen and (max-width: 768px) {
@@ -83,5 +118,41 @@ section.mid > div {
   .m {
     width: 240px;
     height: 250px;
+  }
+
+  .a {
+    background-color: navy;
+  }
+  
+  .b {
+    background-color: rebeccapurple;
+  }
+  
+  .c {
+    background-color: teal;
+  }
+  
+  .d {
+    background-color: chocolate;
+  }
+  
+  .e {
+    background-color: crimson;
+  }
+  
+  .f {
+    background-color: cornflowerblue;
+  }
+  
+  .g {
+    background-color: chartreuse;
+  }
+  
+  .h {
+    background-color: violet;
+  }
+  
+  .i {
+    background-color: magenta;
   }
 }
