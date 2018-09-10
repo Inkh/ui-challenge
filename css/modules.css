@@ -1,0 +1,158 @@
+section.top {
+  height: 200px;
+  background-color: red;
+  display: flex;
+}
+
+section.mid {
+  height: 250px;
+  background-color: gray;
+  display: flex;
+  max-width: 760px;
+}
+
+section.bot {
+  height: 150px;
+  text-align: center;
+  line-height: 150px;
+}
+
+section.top > div {
+  text-align: center;
+  line-height: 200px;
+}
+
+section.mid > div {
+  text-align: center;
+  line-height: 250px;
+}
+
+.t {
+  width: 50%;
+  background-color: orange;
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+
+.m {
+  width: 190px;
+  border: 1px solid black;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  max-width: 79.1666666%;
+}
+
+.a {
+  background-color: antiquewhite;
+}
+
+.b {
+  background-color: turquoise;
+}
+
+.c {
+  background-color: khaki
+}
+
+.d {
+  background-color: purple;
+}
+
+.e {
+  background-color: greenyellow;
+}
+
+.f {
+  background-color: gray;
+}
+
+.g {
+  background-color: rosybrown
+}
+
+.h {
+  background-color: olive
+}
+
+.i {
+  background-color: lavenderblush;
+}
+
+@media only screen and (max-width: 768px) {
+  section.top {
+    flex-direction: column;
+    height: 250px;
+    flex-wrap: nowrap;
+  }
+
+  section.top > div {
+    line-height: 125px;
+  }
+
+  .t {
+    height: 125px;
+    width: 480px;
+  }
+
+  section.mid {
+    height: 500px;
+    width: 480px;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  section.mid>* {
+    flex: 1 1 50%;
+    box-sizing: border-box;
+  }
+
+  section.bot {
+    height: 80px;
+    line-height: 80px;
+  }
+  
+  .m {
+    width: 240px;
+    height: 250px;
+  }
+
+  .a {
+    background-color: navy;
+  }
+  
+  .b {
+    background-color: rebeccapurple;
+  }
+  
+  .c {
+    background-color: teal;
+  }
+  
+  .d {
+    background-color: chocolate;
+  }
+  
+  .e {
+    background-color: crimson;
+  }
+  
+  .f {
+    background-color: cornflowerblue;
+  }
+  
+  .g {
+    background-color: chartreuse;
+  }
+  
+  .h {
+    background-color: violet;
+  }
+  
+  .i {
+    background-color: magenta;
+  }
+}
