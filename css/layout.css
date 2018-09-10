@@ -25,8 +25,33 @@ aside {
 }
 
 section {
-  width: 760px;
+  max-width: 760px;
   height: 200px;
   background-color: brown;
   box-sizing: border-box;
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    width: 480px;
+    margin: 0 auto;
+  }
+
+  main {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  aside {
+    height: 75px;
+    width: 480px;
+  }
+  section {
+    color: white;
+    width: 480px;
+  }
+
+  header {
+    width: 480px;
+  }
 }
